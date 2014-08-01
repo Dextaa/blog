@@ -1,0 +1,36 @@
+Pre-requisites
+--------------
+
+MySQL is installed. (You can use another database but the instructions and code assume MySQL)
+SBT is installed.
+
+
+
+Running the code
+----------------
+
+In the project root directory execute the following from the command line.
+
+mysql -u root < setup/database.sql
+mysql -u demo_user -D typesafe_ids -p  < setup/schema.sql   (when prompted, enter 'letmein' as the password)
+sbt slick-gen   (this is optional because the Slick schema metadata has already been generated and committed as SchemaMetadata.scala)
+sbt test
+
+
+
+Outcome
+-------
+
+You should see a single test pass and the database will still be populated with the test data.
+
+
+
+Associated blog
+---------------
+
+The code in this project is discussed on my blog: derekdougans.blogspot.com
+
+
+
+
+

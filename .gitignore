@@ -1,0 +1,25 @@
+*.class
+*.log
+*~
+nohup.out
+scratch
+keys
+*.dat.gz
+*.dat
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+**/project/boot/
+**/project/target/
+**/project/plugins/project/
+boot/
+
+# Scala IDEA specific
+.history
+.idea
+.idea_modules
+*.iml
+
