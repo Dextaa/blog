@@ -1,0 +1,26 @@
+Pre-requisites
+--------------
+
+SBT is installed.
+
+
+Running the code
+----------------
+
+In the project root directory execute the following from the command line.
+
+sbt gen-build-desc   (this is optional because a pre-built build descriptor has been committed as build-info.txt)
+sbt test - you should see an application test pass (irrelevant) and a build metadata test pass.
+sbt run - the build descriptor should be available from http://localhost:9000/assets/build-info.txt
+
+
+
+Associated blog
+---------------
+
+The code in this project is discussed in this blog post: http://derekdougans.blogspot.com/2014/09/labelling-play-application-with-git.html
+
+
+
+
+

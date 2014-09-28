@@ -1,0 +1,9 @@
+Git branch: master
+Git head revision: 9e1ec0963b01049ba9acf32d8873d0c3416ed846
+Git head tag: Not tagged
+Git branch had uncommitted changes: true
+Built by: user1
+Built at: 28-09-2014 09:53:57
+Built using Java version: 1.7.0_51
+Built using Scala version: 2.10.4
+Built using Play version: 2.3.4
